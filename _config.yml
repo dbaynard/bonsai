@@ -9,4 +9,13 @@ author:
   publickey: /publickey
 
 license: |
-  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">David Baynard</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+  <p>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+      <i class="fab fa-creative-commons"></i>
+      <i class="fab fa-creative-commons-by"></i>
+      <i class="fab fa-creative-commons-sa"></i>
+    </a>
+  </p>
+  <p>
+    This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">David Baynard</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+  </p>
