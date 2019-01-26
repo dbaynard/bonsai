@@ -23,3 +23,8 @@ steps:
       $(build.binariesDirectory):/srv/jekyll/_site
     containerCommand: 'jekyll build --future'
     detached: false
+
+- task: PublishPipelineArtifact@0
+  inputs:
+    targetPath: $(build.binariesDirectory)
+    artifactName: www
