@@ -15,7 +15,9 @@ steps:
   inputs:
     containerRegistryType: 'Container Registry'
     action: 'Run an image'
-    imageName: 'jekyll/builder:latest'
+    envVars: |
+      PAGES_REPO_NWO=$(Build.Repository.Name)
+    imageName: 'jekyll/builder:pages'
     volumes: |
       $(build.sourcesDirectory):/srv/jekyll
       $(build.binariesDirectory):/srv/jekyll/_site
