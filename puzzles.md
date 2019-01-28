@@ -6,7 +6,11 @@ subtitle:  Breakfast background noise on BBC Radio 4
 
 # Today programme puzzles
 
-With [Bobby Seagull](//twitter.com/Bobby_Seagull). Broadcast around 6.50 am.
+Broadcast around 6.50 am.
+
+- [Robert Burns](//www.bbc.co.uk/programmes/articles/3hy05ZlDxZHSFMTw8RDyT7B/puzzle-for-today)
+
+With [Bobby Seagull](//twitter.com/Bobby_Seagull).
 
 - [Valentine’s sonnet](//www.bbc.co.uk/programmes/articles/4TfL1kqzJ3JY29YF8qjk6Zv/puzzle-for-today)
 - [Friday 21 September](//www.bbc.co.uk/programmes/articles/4m1wlZxnLn7lRY3QQRfMlXp/puzzle-for-today)
