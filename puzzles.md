@@ -8,7 +8,7 @@ subtitle:  Breakfast background noise on BBC Radio 4
 
 Broadcast around 6.50 am.
 
-- [Robert Burns](//www.bbc.co.uk/programmes/articles/3hy05ZlDxZHSFMTw8RDyT7B/puzzle-for-today)
+- [Robert Burns]({% post_url 2019-01-29-robert-burns %})
 
 With [Bobby Seagull](//twitter.com/Bobby_Seagull).
 
