@@ -1,0 +1,4 @@
+---
+layout: colophon
+title:  Colophon
+...
