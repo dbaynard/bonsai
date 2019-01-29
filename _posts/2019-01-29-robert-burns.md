@@ -1,14 +1,38 @@
 ---
 layout: post
 title: Robert Burns
-categories: [puzzles]
+cover:
+  src: /assets/2019-01-29-haggis-scoticus.svg
+  alt: An outline of a wild haggis.
+  caption: |
+    _Haggis scoticus_ by David Baynard is licensed under [CC BY-SA 4.0](//creativecommons.org/licenses/by-sa/4.0/), in the style of [@neilslorance](//twitter.com/neilslorance/status/824193230749175808) (with permission).
+
+categories:
+- puzzles
 ...
 
-{% include image.html class="post-header" description="_Haggis_ by David Baynard is licensed under [CC BY-SA 4.0](//creativecommons.org/licenses/by-sa/4.0/), in the style of [@neilslorance](//twitter.com/neilslorance/status/824193230749175808) (with permission)." src="/assets/2019-01-29-haggis" %}
+> Mor haggis: we shall onair thee  
+> Wi' a cask neart Speyside malt,  
+> A botel o' whisky o' twenty year,  
+> Cost'd three score pound of salt.  
+>
+> The botel's twenty dram do w(h)et  
+> Both appetite and floor,  
+> An' neither neep nor tattie mop  
+> Th' ten dram o' alcol pure:  
+> F'r a litre, th' Queen duties  
+> Twenty eight an' sev'nty four  
+> And VAT atop, of twenty  
+> F'r ev'ry hundred ov'r a'.  
+>
+> So wad, fair famished neach, to pay  
+> The sellers, f'r that dram?  
+> And how much thence to th' Exchequer?  
+> 'Tis worth it, still, for a' that.  
 
 <!--more-->
 
-Jim Naughtie read this on air, on Friday 25th January, though his version had one or two changes: mostly improvements (“fair famished folk”) but one which took some of the meaning out of the puzzle (“cask of”, instead of “cask neart”).
+Jim Naughtie read this poem on air, on Friday 25th January, though his version had one or two changes: mostly improvements (“fair famished folk”) but one which took some of the meaning out of the puzzle (“cask of”, instead of “cask neart”).
 
 mor
 :   Great
