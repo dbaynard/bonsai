@@ -14,4 +14,4 @@ author:
 license: cc-by-sa
 
 excerpt_separator: <!--more-->
-permalink: pretty
+permalink: /:year/:month/:day/:title/
