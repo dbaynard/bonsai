@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Robert Burns
+description: |
+  A puzzle for BBC radio 4’s Today programme, inspired by Robert Burns.
 cover:
   src: /assets/2019-01-29-haggis-scoticus.svg
   alt: An outline of a wild haggis.
@@ -9,6 +11,7 @@ cover:
 
 categories:
 - puzzles
+- poetry
 ...
 
 > Mor haggis: we shall onair thee  
