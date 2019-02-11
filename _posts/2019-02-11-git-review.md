@@ -1,18 +1,32 @@
 ---
-title:  Reviewing PRs on github  
+title:  Reviewing PRs off github  
 date:   11 Feb 2019  
 
 description: |
   A short script to fetch PR branches into a local repository of a github project.
-#cover:
-#  src: /assets/2019-01-29-haggis-scoticus.svg
-#  alt: An outline of a wild haggis.
-#  caption: |
 
 categories:
 - programmes
 - programming
 ...
+
+```
+> git review user:branch [new-branch-name]
+```
+
+<!--more-->
+
+Github presents a decent interface to review PRs, but there are some pain points.
+For example, the diff interface only shows the changed regions of files;
+while it is possible to see the rest of the changed files, it is _not_ possible to add comments (and therefore make suggestions) outside the changes.
+
+In addition, there are many reasons to review the PRs in a development environment, rather than the github website.
+These range from wishing to run tests that can’t run automatically, to wanting to push a further commit on the PR branch, to rebasing the entire PR.
+
+This short script takes as input the branch identifier shown by github at the top of a PR, and checks out a local branch with the changes, which can be pushed back to extend the PR.
+It’s a bit hacky, and a bit of a work-in-progress, but it should be safe (i.e. not overwrite branches unless you tell it to).
+
+# The script
 
 ```zsh
 #!/usr/bin/env zsh
@@ -44,7 +58,6 @@ repo="${local_repo:t}"
 
 add_remote()
 {
-    # git fetch "git@github.com:$user/$repo" "$branch" && git checkout -b "$branch" FETCH_HEAD
     echo "Adding remote github branch $their_branch of repo $repo belonging to user $user."
     git remote add -t "$their_branch" "$user" "git@github.com:$user/$repo" || git remote set-branches --add "$user" "$their_branch"
     echo "Fetching remote branch $user/$their_branch (and any other already added $user branches)."
@@ -87,3 +100,20 @@ esac
 
 echo "Done"
 ```
+
+# Prior art
+
+*   [hub · the command-line wrapper for git](https://hub.github.com/)
+
+    Github interaction, from the command line.
+    There’s a section on maintaining projects, which includes this functionality.
+
+*   [Code Review from the Command Line - Bits, Bytes, and Words](https://blog.jez.io/cli-code-review/)
+
+    Some further tools, but using `hub` to pull the code.
+
+*   [dmac/git-review: A command line code review tool for git.](https://github.com/dmac/git-review)
+
+    Ruby script.
+    Slightly different.
+    Very similar.
