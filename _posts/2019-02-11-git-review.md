@@ -1,5 +1,5 @@
 ---
-title:  Reviewing PRs off github  
+title:  Reviewing PRs off github [sic]  
 date:   11 Feb 2019  
 
 description: |
@@ -27,6 +27,13 @@ This short script takes as input the branch identifier shown by github at the to
 It’s a bit hacky, and a bit of a work-in-progress, but it should be safe (i.e. not overwrite branches unless you tell it to).
 
 # The script
+
+
+<script src="https://gist.github.com/dbaynard/4e2bf2b3a1fd8284c361c985882471cf.js"></script>
+
+<noscript>
+
+Note: enable javascript to see the up-to-date [gist](//gist.github.com/dbaynard/4e2bf2b3a1fd8284c361c985882471cf).
 
 ```zsh
 #!/usr/bin/env zsh
@@ -101,6 +108,8 @@ esac
 echo "Done"
 ```
 
+</noscript>
+
 # Prior art
 
 *   [hub · the command-line wrapper for git](https://hub.github.com/)
@@ -110,7 +119,7 @@ echo "Done"
 
 *   [Code Review from the Command Line - Bits, Bytes, and Words](https://blog.jez.io/cli-code-review/)
 
-    Some further tools, but using `hub` to pull the code.
+    Some further tools, but using [hub](https://hub.github.com/) to pull the code.
 
 *   [dmac/git-review: A command line code review tool for git.](https://github.com/dmac/git-review)
 
