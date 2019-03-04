@@ -26,15 +26,15 @@ The original was broadcast by the BBC, with some accoutrements for Valentine’s
 
 Each of the five characters are described using the origins of their forename.
 
--   Prophetic Greek deity: this is Phoebe, the Titan, the goddess of prophecy.
--   German steed: das Ross is the German for ‘steed’, and the origin of the Ashkenazi name ‘Ross’.
--   Jewish matriarch: Sarah, Rebecca, Leah and Rachel are the four matriarchs of Judaism, and it is the last to whom this clue refers.
--   Patron saint of wives: St. Monica of Hippo (mother of St. Augustine of Hippo). There is some debate as to the etymological origin of the word Monica.
--   Candle maker: Chandler.
+-   Prophetic Greek deity: this is [Phoebe](//en.wikipedia.org/wiki/Phoebe_(Titaness)), the Titan, the goddess of prophecy.
+-   German steed: das Ross is the German for ‘steed’, and the origin of the Ashkenazi name ‘[Ross](https://en.wikipedia.org/wiki/Ross_(name))’. It is present in modern English, as ‘horse’.
+-   Jewish matriarch: Sarah, Rebecca, Leah and [Rachel](https://en.wikipedia.org/wiki/Rachel_(given_name)) are the four matriarchs of Judaism, and it is the last to whom this clue refers.
+-   Patron saint of wives: St. Monica of Hippo (mother of St. Augustine of Hippo). There is some debate as to the etymological origin of the word [Monica](https://en.wikipedia.org/wiki/Monica_(given_name)).
+-   Candle maker: [Chandler]https://en.wikipedia.org/wiki/Chandler_(given_name)).
 
 These, as any regular Radio 4 listener will know, are five of the six main characters in the NBC sitcom _Friends_.
 
-That means the young animal is a joey.
+That means the young animal is a [Joey](https://en.wikipedia.org/wiki/Joey_(name)).
 
 Bonus points for noting the coffee shop is Central Perk.
 
