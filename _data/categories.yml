@@ -2,3 +2,7 @@
   name: Puzzles
 - slug: poetry
   name: Poetry
+- slug: programmes
+  name: Programmes
+- slug: programming
+  name: Programming
